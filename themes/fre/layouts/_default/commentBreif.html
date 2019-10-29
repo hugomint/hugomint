@@ -1,0 +1,16 @@
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-2">
+        <a class="site-hover" href="#"><img src="{{ .Params.siteImage }}" /></a>
+      </div>
+      <div class="column is-2">
+        {{ .Render "customContentView" }}
+      </div>
+      <div class="column is-6">
+        <h3 class="title is-4">{{ .Params.name }}</h3>
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</section>

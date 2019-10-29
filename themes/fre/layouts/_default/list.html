@@ -1,0 +1,25 @@
+{{/* {{here we define main in a list}} */}}
+{{ define "main" }}
+  {{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "posts") }} 
+
+  <section class="section single-page-articles">
+    <div class="container">
+      <h1 class="title capitalize">
+         {{ if .Content }}
+          {{ .Content }}
+         {{ else }}
+          {{ .Title }} related articles
+          {{/* {{ .Name }} */}}
+          {{/* {{ .Permalink }} */}}
+         {{ end }}
+      </h1>
+    </div>
+  </section>
+
+  {{ range $paginator.Pages }}
+  {{ .Render "breif" }}
+  {{ end }}
+
+  {{ partial "paginate.html" . }}
+
+{{ end }}

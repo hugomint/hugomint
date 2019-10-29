@@ -1,0 +1,10 @@
+
+{{ $bulma := resources.Get "css/bulma.css" }}
+{{/* {{ $core := resources.Get "css/core.css" }} */}}
+{{ $icon := resources.Get "css/icons.css" }}
+{{ $bundle := slice $bulma $icon | resources.Concat "css/bundle.css" }}
+
+{{ $css := $bundle | resources.Minify }}
+
+<link rel="stylesheet" href="{{ $css.Permalink }}">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">

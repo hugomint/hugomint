@@ -1,0 +1,33 @@
+<body>
+  <div id="preloader">
+    <div id="status"></div>
+  </div>
+
+  
+  
+  <section class="hero is-default is-bold">
+  
+
+<nav class="navbar is-fixed-top is-fresh" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img src="/images/logos/fresh.svg" alt="" width="112" height="28">
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+      <div id="navbar-menu" class="navbar-menu is-static">
+        <div class="navbar-end">
+          {{ range .Site.Menus.main }}
+          <a href="{{ .URL }}" class="navbar-item is-secondary">{{ .Title }}</a>
+          {{ end }}
+        </div>
+      </div>
+  </div>
+</nav>

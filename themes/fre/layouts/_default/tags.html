@@ -1,0 +1,12 @@
+{{ if and $.Site.Params.posts.showTags .Params.Tags }}
+  {{/* <p>This is rendered at the bottom of the each single page</p> */}}
+  <div class="tags">
+    {{ range .Params.Tags }}
+    {{ $url := printf "/tags/%s/" . | urlize }}
+    <a class="tag is-primary" href="{{ $url }}">{{ . }}</a> 
+    {{ end }}
+  </div>
+{{ end }}
+
+
+{{/* {{ "/tags/" | relLangURL}}{{ $value.Name | urlize }} */}}

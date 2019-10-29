@@ -1,0 +1,64 @@
+</section>
+  </body>
+
+<footer class="footer footer-dark">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-3">
+        <div class="footer-logo">
+          <img src="/images/logos/fresh-alt.svg">
+        </div>
+      </div>
+        <div class="column is-3">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>Information</h3>
+            </div>
+            <ul class="link-list">
+            {{ range .Site.Menus.footer }}
+            <li><a href="{{ .URL }}" >{{ .Title }}</a></li>
+            {{ end }}
+            </ul>
+          </div>
+        </div>
+        <div class="column is-6">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>Articles</h3>
+            </div>
+            <ul class="link-list">
+            {{ $p := where .Site.Pages.ByDate.Reverse "Type" "posts" }}
+            {{ range $i, $v := $p }}
+              {{ if le $i 3 }}
+              <li>
+                <a href="{{ $v.Permalink }}">
+                  {{ $v.Title }}
+                </a>
+              </li>
+              {{ end }}
+            {{ end }}
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column">
+        <p class="text-centre is-6" data-config-id="copyright">Mobile: 0405 472 502 © {{ dateFormat "2006" now }} hugomint.com - All right reserved</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+    <div id="backtotop"><a href="#"></a></div>
+
+    
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="/js/fresh.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+{{ template "_internal/google_analytics.html" . }}

@@ -1,0 +1,27 @@
+{{ define "main" }}
+  <section class="section single-page">
+    <div class="container">
+    <ul>
+      {{ range $key, $value := .Data.Terms.ByCount }}
+        <li><h3 class="tag-title"><a href="{{ "/tags/" | relLangURL}}{{ $value.Name | urlize }}">{{ $value.Name }}</a></h3></li>
+            <ul>
+            {{ range $value.Pages }}
+                <li><a href="{{ .Permalink }}"> {{ .LinkTitle }} </a> </li>
+            {{ end }}
+            </ul>
+      {{ end }}
+    </ul>
+    </div>
+  </section>
+
+  <section class="section single-page">
+    <div class="container">
+    <h1 class="title">terms.html</h1>
+    <ul>
+      {{ . }}
+
+    </ul>
+    </div>
+  </section>
+</main>
+{{ end }}

@@ -1,0 +1,13 @@
+{{/* {{here we define main in a list}} */}}
+{{ define "main" }}
+  {{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "comments") }}
+
+  <section class="section single-page">
+
+          {{ range $paginator.Pages }}
+          {{ .Render "commentBreif" }}
+          {{ end }}
+    
+  </section>
+
+{{ end }}

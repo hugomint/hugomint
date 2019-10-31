@@ -6,13 +6,13 @@ menu:
     weight: 2
 ---
 
-\*Date: {{% date %}}
+**\*Date: {{% date %}}**
 
-You accept the Services of Hugomint only if you fully agree to the Hugomint Terms of agreement. If you do not read, fully understand and agree to the Hugomint Terms, you must immediately leave and reject any provision of Services. Clients (you) are collectively referred to herein as (“Owner(s)”).
+**^Owner: Clients name**
 
-Hugomint only accepts the owner of the site as that set by the signature on the agreement of terms.
+You accept the Services of Hugomint only if you fully agree to the Hugomint Terms of agreement. If you do not read, fully understand and agree to the Hugomint Terms, you must immediately leave and reject any provision of Services. You are collectively referred to herein as (“Owner(s)”) and your name is clearly printed on the terms of agreement besides **^Owner**.
 
-Hugomint is in no way liable or responsible for any and all content on the Owners site. The services provided by Hugomint is strictly limited to the design and deployment of the Owners HUGO (https://gohugo.io/) website. Hugomint has no legal or contractual obligation or warranty to the Owner after the date and time specified on the Hugomint terms of agreement above\*.
+Hugomint is in no way liable or responsible for any and all content on the Owners website. The services provided by Hugomint are limited to design. The owner acknowleges that their website is built using HUGO (https://gohugo.io/) which is distributed under a MIT licence agreement. **Hugomint has no legal or contractual obligation or warranty to the Owner after the date and time specified on the Hugomint terms of agreement above\***.
 
 The Owner understand that Hugomint does not provide any legal advice or any recommendation with respect to any laws or requirements applicable to your use or any of your End Users, or your compliance therewith;
 

@@ -20,7 +20,7 @@ We want you to grow your business in a direction that you choose.
 
 Terms – of agreement
 
-\*Date - <Todays Date>
+\*Date - Todays Date
 
 You accept the Services of Hugomint only if you fully agree to the Hugomint Terms of agreement. If you do not read, fully understand and agree to the Hugomint Terms, you must immediately leave and reject any provision of Services. Clients (you) are collectively referred to herein as (“Owner(s)”).
 

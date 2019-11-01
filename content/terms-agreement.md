@@ -12,9 +12,9 @@ menu:
 
 You accept the Services of Hugomint only if you fully agree to the Hugomint Terms of agreement. If you do not read, fully understand and agree to the Hugomint Terms, you must immediately leave and reject any provision of Services. You are collectively referred to herein as (“Owner(s)”) and your name is clearly printed on the terms of agreement besides **^Owner**.
 
-Hugomint is in no way liable or responsible for any content on the Owners website. The owner acknowleges that their website is built using HUGO (https://gohugo.io/) which is distributed under a MIT licence. The services provided by Hugomint are limited to design and installation of a HUGO. **Hugomint provides no warranty to the Owner and cannot in any way be liable for the use of the owners website**.
+Hugomint is in no way liable or responsible for any content on the Owners website. The owner acknowleges that their website is built using HUGO (https://gohugo.io/) under an  MIT licence. **Hugomint provides no warranty to the Owner and cannot in any way be liable for the use of the owners website**.
 
-The Owner understand that Hugomint does not provide any legal advice or any recommendation with respect to any laws or requirements applicable to your use or any of your End Users, or your compliance therewith;
+The Owner understands that Hugomint does not provide any legal advice or any recommendation with respect to any laws or requirements applicable to your use or any of your End Users.
 
 The Owner accepts Permission is hereby granted, to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

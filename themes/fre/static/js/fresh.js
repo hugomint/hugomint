@@ -16,6 +16,7 @@ $(document).ready(function() {
       type: "POST",
       data: JSON.stringify(formData),
       contentType: "application/json",
+      crossDomain: true,
       url: "https://renegadeprint.com/cors/ajax",
       success: function(data) {
         // console.log(JSON.stringify(data))

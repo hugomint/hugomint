@@ -1,8 +1,8 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
-webhook_url: 
+admin_path: ''
+webhook_url: https://api.render.com/deploy/srv-bms24ol8rbk2h1dp27d0?key=ENFKU-sNJ1U
 sections:
 - type: directory
   path: content

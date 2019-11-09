@@ -13,7 +13,7 @@ theme_examples:
     title: www.beattieco.com.au
     alt: Tony beattie website
 - branch: Serif
-  image: https://www.hugomint.com/uploads/serif.jpg
+  image: uploads/serif.jpg
   text:
   - url: https://serif.onrender.com/
     title: https://serif.onrender.com/

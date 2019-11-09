@@ -12,12 +12,12 @@ theme_examples:
   - url: https://beattieco.com.au/
     title: www.beattieco.com.au
     alt: Tony beattie website
-- branch: Some text aboutb
-  image: "/a.png"
+- branch: Serif
+  image: "/uploads/serif.jpg"
   text:
-  - url: bb
-    title: bb-bb
-    alt: Tony beattie website
+  - url: https://serif.onrender.com/
+    title: Serif
+    alt: Theme site called serif
 - branch: Some text aboutc
   image: "/a.png"
   text:

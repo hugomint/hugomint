@@ -13,10 +13,10 @@ theme_examples:
     title: www.beattieco.com.au
     alt: Tony beattie website
 - branch: Serif
-  image: "/uploads/serif.jpg"
+  image: https://www.hugomint.com/uploads/serif.jpg
   text:
   - url: https://serif.onrender.com/
-    title: Serif
+    title: https://serif.onrender.com/
     alt: Theme site called serif
 - branch: Some text aboutc
   image: "/a.png"

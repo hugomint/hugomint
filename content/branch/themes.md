@@ -6,6 +6,12 @@ button: More
 weight: "12"
 theme: true
 theme_examples:
+- branch: Skying
+  image: "/uploads/skying.jpg"
+  text:
+  - url: https://d3lc2o7xd817zl.cloudfront.net
+    title: Skying
+    alt: Theme site Skying
 - branch: Tony Beattie Architect
   image: images/projects/tony_beattie.jpg
   text:

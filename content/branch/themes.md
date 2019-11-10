@@ -7,7 +7,7 @@ weight: "12"
 theme: true
 theme_examples:
 - branch: Skying
-  image: "/uploads/skying.jpg"
+  image: uploads/skying.jpg
   text:
   - url: https://d3lc2o7xd817zl.cloudfront.net
     title: Skying

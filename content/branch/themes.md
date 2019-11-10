@@ -18,12 +18,12 @@ theme_examples:
   - url: https://serif.onrender.com/
     title: https://serif.onrender.com/
     alt: Theme site called serif
-- branch: Some text aboutc
-  image: "/a.png"
+- branch: Abril
+  image: uploads/abril.jpg
   text:
-  - url: cc
-    title: cc-cc
-    alt: Tony beattie website
+  - url: http://dict3c2qghdcw.cloudfront.net/
+    title: Abril
+    alt: Abril theme site
 menu:
   footer:
     weight: 12

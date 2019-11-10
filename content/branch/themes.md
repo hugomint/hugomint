@@ -6,6 +6,12 @@ button: More
 weight: "12"
 theme: true
 theme_examples:
+- branch: Master
+  image: uploads/hugomaster.jpg
+  text:
+  - url: https://d2i0le5o3b9235.cloudfront.net/
+    title: Hugo_m
+    alt: Theme site hugo
 - branch: Skying
   image: uploads/skying.jpg
   text:

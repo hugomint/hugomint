@@ -2,7 +2,7 @@ baseurl = "/"
 title = "hugomint web design"
 author = "Mr Mendes"
 # google analyitics
-googleAnalytics = "UA-someID"
+googleAnalytics = "UA-152064338-1"
 defaultContentLanguage = "en"
 language = "en-US"
 paginate = 4

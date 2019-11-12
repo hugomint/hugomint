@@ -9379,3 +9379,7 @@
   #alertSMS {
     margin-top: 50px;
   }
+
+.has-padding-right-15 {
+  margin-right: 0.8rem;
+}

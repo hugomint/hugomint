@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 weight: 2
 name: "Bruce Singer"
 img: "/images/illustrations/faces/2.png"

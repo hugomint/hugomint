@@ -3,7 +3,7 @@
   <div class="tags">
     {{ range .Params.Tags }}
     {{ $url := printf "/tags/%s/" . | urlize }}
-    <a class="tag is-primary" href="{{ $url }}">{{ . }}</a> 
+    <a class="button has-padding-right-15" href="{{ $url }}">{{ . }}</a> 
     {{ end }}
   </div>
 {{ end }}

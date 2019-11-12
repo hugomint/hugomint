@@ -7,7 +7,7 @@ weight: "12"
 theme: true
 theme_examples:
 - branch: Woody
-  image: public/woody.jpg
+  image: uploads/woody.jpg
   text:
   - url: https://da72xlapm18bn.cloudfront.net/
     title: Woody

@@ -1,20 +1,19 @@
 ---
 title: Example
+draft: true
 description: Example - the decription of the page...
 date: 2019-10-11T05:58:16.000+00:00
 publishDate: 2019-10-11T05:58:16.000+00:00
 author: John Doe
 images: []
 tags:
-- _index.html
-- hello
+  - _index.html
+  - hello
 series:
-- face-twitter
+  - face-twitter
 videos:
-- some-link-to-video
-
----
-Provide personal details – name, address, contact
+  - some-link-to-video
+---Provide personal details – name, address, contact
 
 Any special considerations – interpreter / disabilities / injuries / medications (pre-existing)
 

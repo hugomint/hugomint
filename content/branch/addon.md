@@ -28,4 +28,4 @@ Assistance will be provided to clients wanting to use AWS cloud services for med
 
 ##### Building a website
 
-This [article]() is a great read for those new to web design
+This [article](https://www.namecheap.com/resource-center/tutorials/building-your-first-website/?utm_source=Iterable_Marketing&utm_medium=email&utm_campaign=News_NCNovEnV5_20191112) is a great read for those new to web design

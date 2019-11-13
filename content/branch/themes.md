@@ -49,4 +49,4 @@ menu:
 ---
 We have a selection of website themes to choose from or you may want a custom theme build. The following are a small collection of themes and websites previously built.
 
-Other themes can be purchased through [themeforest.com ](https://themeforest.net/category/site-templates) we can assist you in any purchase (usual price for a HTML theme is \$20).
+Other themes can be purchased through [themeforest.com ](https://themeforest.net/category/site-templates) we can assist you in any purchase (usual price for a HTML theme is $20).

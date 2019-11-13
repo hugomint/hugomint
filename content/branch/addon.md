@@ -25,3 +25,7 @@ In addition, your site will have Search Engine Optimisations for Google, Faceboo
 ##### AWS cloud services
 
 Assistance will be provided to clients wanting to use AWS cloud services for media and file storage. Correct management of digital assessts is an important requirment for buisness.
+
+##### Building a website
+
+This [article](https://www.namecheap.com/resource-center/tutorials/building-your-first-website/?utm_source=Iterable_Marketing&utm_medium=email&utm_campaign=News_NCNovEnV5_20191112) is a great read for those new to web design

@@ -30,7 +30,7 @@ theme = "fre"
     weight = 2
 
 [params]
-  description = "Some description about the site."
+  description = "Web design. Specialists in static websites. A web development company that has extensive experience in web development with a focus on Golang and Nodejs technologies."
   favicon = "favicon.ico"
   logo = ""
   images = ["site-feature-image.jpg"]

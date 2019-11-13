@@ -8,11 +8,9 @@ theme: false
 menu:
   footer:
     weight: 8
+---It is good practise to have a tree diagram describing the content structure of your new site, here is an example. Please note each leaf of the branch is a unique page. This will enable you to easily add additional pages in a logical and structured manner and make your site easier to navigate.
 
----
-It is good practise to have a tree diagram describing the content structure of your new site, here is an example. Please note each leaf of the branch is a unique page. This will enable you to easily add additional pages in a logical and structured manner and make your site easier to navigate.
-
-![](https://cdn.kreezalid.com/kreezalid/files/2/website_tree_structure.jpg)
+![](/images/layout.jpg)
 
 #### Images say a thousand words
 

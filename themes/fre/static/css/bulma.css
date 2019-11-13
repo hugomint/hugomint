@@ -8537,7 +8537,7 @@
    font-size:1.1rem
   }
   footer.footer-dark .footer-column ul.link-list a {
-   color:#98a9c3;
+   color:#7ccfb3;
    font-weight:400;
    transition:all .5s
   }
@@ -9382,4 +9382,7 @@
 
 .has-padding-right-15 {
   margin-right: 0.8rem;
+}
+.footer .container a {
+  color: #7ccfb3;
 }

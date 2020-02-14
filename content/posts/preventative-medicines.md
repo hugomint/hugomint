@@ -11,7 +11,7 @@ tags:
 ---
 ## Increasing SEO
 
-These days companies are required to be on the front page of search engines (Google) or have less than a 5% chance of gaining business through the web.
+These days companies are required to be on the front page of search engines (Google) or have less than a 5% chance of sourcing business through the web.
 
 In an article by Barry Schwartz titled "Now we know: Here are Google’s top 3 search ranking factors", Barry highlights the importance of back linking. He says, Google's Andrey Lipattsev reveals links, content and RankBrain are the top three ranking signals in Google's search algorithm.
 
@@ -25,6 +25,6 @@ And there are other countless articles such as [https://www.improvemysearchranki
 
 In my research most articles conclude that content, links, freshness, mobile first, page speed, schema code, domain and HTTPS rank in top categories.
 
-In light of all this evidence we are pleased to offer an exclusive SEO package that that offers weekly website creation with all the benefits of increasing your Google ranking.
+In light of all this evidence we are pleased to offer an exclusive SEO package that offers weekly website creation with all the benefits of increasing your Google ranking.
 
 Please contact me on _ for more information.

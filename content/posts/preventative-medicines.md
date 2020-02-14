@@ -9,8 +9,6 @@ tags:
 - SEO
 
 ---
-## Increasing SEO
-
 These days companies are required to be on the front page of search engines (Google) or have less than a 5% chance of sourcing business through the web.
 
 In an article by Barry Schwartz titled "Now we know: Here are Google’s top 3 search ranking factors", Barry highlights the importance of back linking. He says, Google's Andrey Lipattsev reveals links, content and RankBrain are the top three ranking signals in Google's search algorithm.

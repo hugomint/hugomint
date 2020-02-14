@@ -15,7 +15,7 @@ In an article by Barry Schwartz titled "Now we know: Here are Google’s top 3 s
 
 It has been well established that [RankBrain](https://searchengineland.com/faq-all-about-the-new-google-rankbrain-algorithm-234440) was said by Google to be the third most important ranking factor, but Google refused to say what the first two were. Yesterday, in a [Q&A with Google](http://webpromo.expert/google-qa-march/), Andrey Lipattsev, a Search Quality Senior Strategist at Google, said the other two factors were links and content:
 
-> I can tell you what they are. It is content. And it’s links pointing to your site.
+> "I can tell you what they are. It is content. And it’s links pointing to your site" Lipattsev.
 
 In this article [https://www.searchenginejournal.com/top-3-google-factors/308147/#close](https://www.searchenginejournal.com/top-3-google-factors/308147/#close "https://www.searchenginejournal.com/top-3-google-factors/308147/#close") Content, Meta data and site Performance (speed) rank in the top 3.
 

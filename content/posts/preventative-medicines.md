@@ -24,3 +24,7 @@ In this article [https://www.searchenginejournal.com/top-3-google-factors/308147
 And there are other countless articles such as [https://www.improvemysearchranking.com/googles-top-3-search-engine-ranking-factors-revealed/](https://www.improvemysearchranking.com/googles-top-3-search-engine-ranking-factors-revealed/ "https://www.improvemysearchranking.com/googles-top-3-search-engine-ranking-factors-revealed/") That revels the top 3 factors for search engine ranking officially declared and confirmed by Google are; Content, Links pointing to your website and RankBrain.
 
 In my research most articles conclude that content, links, freshness, mobile first, page speed, schema code, domain and HTTPS rank in top categories.
+
+In light of all this evidence we are pleased to offer an exclusive SEO package that that offers weekly website creation with all the benefits of increasing your Google ranking.
+
+Please contact me on _ for more information.

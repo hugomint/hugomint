@@ -17,7 +17,7 @@ It has been well established that [RankBrain](https://searchengineland.com/faq-a
 
 > I can tell you what they are. It is content. And it’s links pointing to your site.
 
-In this article [https://www.searchenginejournal.com/top-3-google-factors/308147/#close](https://www.searchenginejournal.com/top-3-google-factors/308147/#close "https://www.searchenginejournal.com/top-3-google-factors/308147/#close") Content, Meta data and site Performance (speed) rank in the top 3
+In this article [https://www.searchenginejournal.com/top-3-google-factors/308147/#close](https://www.searchenginejournal.com/top-3-google-factors/308147/#close "https://www.searchenginejournal.com/top-3-google-factors/308147/#close") Content, Meta data and site Performance (speed) rank in the top 3.
 
 And there are other countless articles such as [https://www.improvemysearchranking.com/googles-top-3-search-engine-ranking-factors-revealed/](https://www.improvemysearchranking.com/googles-top-3-search-engine-ranking-factors-revealed/ "https://www.improvemysearchranking.com/googles-top-3-search-engine-ranking-factors-revealed/") That revels the top 3 factors for search engine ranking officially declared and confirmed by Google are; Content, Links pointing to your website and RankBrain.
 

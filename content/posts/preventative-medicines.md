@@ -1,18 +1,63 @@
 ---
-title: "Why preventative medicines are afraid of the truth"
-draft: true
-description: "Why vaccination schedules will change your life."
-date: 2018-12-07T22:30:56+01:00
-publishDate: 2018-12-19T22:21:42+01:00
-author: "John Doe"
+title: Improving SEO
+description: Google experts say...
+date: 2018-12-07T21:30:56.000+00:00
+publishDate: 2018-12-19T21:21:42.000+00:00
+author: Dave Mendes
 images: []
-tags: ["medicine", "health"]
+tags:
+- SEO
+
 ---
+## Increasing SEO
 
-Why vaccination schedules will change your life. How weight loss meal plans can help you live a better life. How not knowing fitness equipment makes you a rookie. The 18 best resources for fitness equipment. 9 problems with home health care products. [17 amazing health care provider picturesi](#). How nutrition facts make you a better lover. The oddest place you will find home health care products. The 15 best health question twitter feeds to follow. Why our world would end if preventative medicines disappeared.
+These days companies are required to be on the front page of search engines (Google) or have less than a 5% chance of gaining business through the web.
 
-How hollywood got travel medicines all wrong. Expose: you're losing money by not using health care solutions. 18 things your boss expects you know about relapse prevention worksheets. 5 ways vaccination schedules can make you rich. 14 things you don't want to hear about vaccination schedules. The evolution of vaccine ingredients. 19 movies with unbelievable scenes about fitness programs. 17 amazing health care solution pictures. 11 things you don't want to hear about travel vaccines. 12 movies with unbelievable scenes about travel vaccines.
+In an article by Barry Schwartz titled "Now we know: Here are Google’s top 3 search ranking factors", Barry highlights the importance of back linking. He says, Google's Andrey Lipattsev reveals links, content and RankBrain are the top three ranking signals in Google's search algorithm.
 
-What the world would be like if naturopathic medicines didn't exist. 11 myths uncovered about vaccine ingredients. 9 facts about healthy eating meal plans that'll keep you up at night. Home health care products by the numbers. Why mom was right about health quotes. Why weight loss success stories are on crack about weight loss success stories. What experts are saying about travel medicines. Expose: you're losing money by not using weight loss meal plans. [What wikipedia can't tell you about vaccine ingredientsi](#). 20 facts about fitness magazines that will impress your friends.
+It has been well established that [RankBrain](https://searchengineland.com/faq-all-about-the-new-google-rankbrain-algorithm-234440) was said by Google to be the third most important ranking factor, but Google refused to say what the first two were. Yesterday, in a [Q&A with Google](http://webpromo.expert/google-qa-march/), Andrey Lipattsev, a Search Quality Senior Strategist at Google, said the other two factors were links and content:
 
-18 ways home health care products could leave you needing a lawyer. 6 ways healthy eating tips could leave you needing a lawyer. Why nutrition label makers are on crack about nutrition label makers. Why mom was right about health questions. [Why online nutrition courses will make you question everything](#). 12 facts about health informatics that will impress your friends. 16 facts about health informatics that will impress your friends. The oddest place you will find weight loss meal plans. 16 things about health informatics your kids don't want you to know. What experts are saying about fitness programs.
+I can tell you what they are. It is content. And it’s links pointing to your site.
+
+He wouldn’t say which was more important, so the top three list now looks like this:
+
+1 & 2: Links & Content  
+ 3: RankBrain
+
+Of course, Google looks at many other factors, such as those on our [Periodic Table Of Ranking Factors](https://searchengineland.com/seotable). Links, Content and RankBrain themselves each are made up of many subfactors. But these are the overall top three, officially confirmed by Google itself.
+
+Article [https://www.searchenginejournal.com/top-3-google-factors/308147/#close](https://www.searchenginejournal.com/top-3-google-factors/308147/#close "https://www.searchenginejournal.com/top-3-google-factors/308147/#close") ranked top 3
+
+Content
+
+Meta data
+
+Performance
+
+Article [https://www.improvemysearchranking.com/googles-top-3-search-engine-ranking-factors-revealed/](https://www.improvemysearchranking.com/googles-top-3-search-engine-ranking-factors-revealed/ "https://www.improvemysearchranking.com/googles-top-3-search-engine-ranking-factors-revealed/")
+
+So, there we have it — the top three search engine ranking factors officially declared and confirmed by Google.
+
+1\. Content
+
+2\. Links pointing to your website ([backlinks](https://www.improvemysearchranking.com/build-backlinks-to-a-new-website/))
+
+3\. RankBrain
+
+Article [https://yellowheadinc.com/blog/google-ranking-factors/](https://yellowheadinc.com/blog/google-ranking-factors/ "https://yellowheadinc.com/blog/google-ranking-factors/")
+
+Content
+
+Freshness
+
+Backlinks
+
+Mobile first
+
+Page speed
+
+Schema code
+
+Domain
+
+HTTPS

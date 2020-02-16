@@ -1,14 +1,15 @@
 ---
 title: Google Analytics
-description: ''
+description: ""
+draft: true
 date: 2019-10-28T21:34:04.000+00:00
 publishDate: 2019-10-28T21:34:00.000+00:00
 author: Dave
 images: []
 tags:
-- Google
-
+  - Google
 ---
+
 #### Install Google Analytics
 
 Register your site with Google, read this article to begin [Google](https://search.google.com/search-console/about "Google search").

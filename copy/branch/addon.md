@@ -1,5 +1,6 @@
 ---
 title: Essential Add-ons
+draft: true
 description: DNS and other services
 img: "/images/illustrations/icons/plug-cloud.svg"
 button: More
@@ -8,8 +9,8 @@ theme: false
 menu:
   footer:
     weight: 3
-
 ---
+
 The first step towards building your site is deciding on a domain name. Ideally you have purchased your domain name through a reputable business like [namecheap ](https://www.namecheap.com/)and now have access to the DNS services associated with your domain.
 
 ##### DNS – Domain Name System services

@@ -1,0 +1,203 @@
+
+
+  
+<div class="hero-body first-hero">
+  <div class="container">
+    <div class="columns is-vcentered">
+      <div class="column is-5 is-offset-1 landing-caption">
+
+        {{ $int := .Site.GetPage "/deploy" }}
+
+        <h1 class="title is-1 is-bold is-spaced">
+          {{ $int.Title }}
+        </h1>
+        <h2 class="subtitle is-5 is-muted">
+          {{ $int.Summary }}
+        </h2>
+        <p>
+          <a class="button cta rounded primary-btn raised" href="{{ $int.Permalink }}">
+            {{ $int.Description }}
+          </a>
+        </p>
+      </div>
+      <div class="column is-5 is-offset-1">
+        <figure class="image is-4by3">
+          <img src="{{ $int.Params.image }}">
+        </figure>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+    
+<section class="section section-feature-grey is-small">
+  <div class="container">
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2">{{ .Params.description  }}</h2>
+      <h3 class="subtitle is-5 is-muted">{{ .Params.extendedDescription  }}</h3>
+      <div class="divider is-centered"></div>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="columns">
+
+          {{ $items := (where $.Site.RegularPages.ByWeight "Type" "branch") }}
+          {{ $len := (len $items) }}
+          {{ range $i, $e := $items }}
+        <div class="column is-one-third">
+          <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
+            <div class="card-title">
+              <h4>{{ $e.Params.title }}</h4>
+            </div>
+            <div class="card-icon">
+                <img src="{{ $e.Params.img }}">
+            </div>
+            <div class="card-text">
+                {{ $e.Params.description }}
+            </div>
+            <div class="card-action">
+              <a href="{{ $e.Permalink }}" class="button btn-align-md accent-btn raised">{{ $e.Params.button }}</a>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section is-medium">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-10 is-offset-1">
+        <div class="has-text-centered">
+          <img class="pushed-image" src="/images/illustrations/mockups/app-mockup.png">
+        </div>
+      </div>
+    </div>
+
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2">{{ .Params.serverFees  }}</h2>
+      <h3 class="subtitle is-5 is-muted">{{ .Params.serverText  }}</h3>
+    </div>
+
+    <p class="has-text-centered mt-20">
+      <a class="button cta is-large rounded secondary-btn raised" href="{{ $int.Permalink }}">
+        {{ $int.Description }}
+      </a>
+    </p>
+  </div>
+</section>
+
+    
+<section class="section is-medium section-secondary">
+  <div class="container">
+    {{ $comm := .Site.GetPage "/Comments" }}
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2 light-text is-spaced">{{ $comm.Params.intro }}</h2>
+      <h3 class="subtitle is-5 light-text">{{ $comm.Params.summary }}</h3>
+    </div>
+
+      {{/* {{ with .Site.GetPage "section" "comments" }}{{ .Title }}{{ end }} */}}
+
+    <div class="content-wrapper">
+      <div class="columns is-vcentered">
+
+        {{ $items := (where $.Site.RegularPages "Type" "comments") }}
+        {{ $len := (len $items) }}
+        {{ range $i, $e := $items }}
+        <div class="column is-4">
+          <figure class="testimonial">
+            <blockquote>
+              {{ $e.Content  }}
+            </blockquote>
+            <div class="author">
+              <img src="{{ $e.Params.img }}" alt=""/>
+              <h5>{{ $e.Params.name }}</h5>
+            </div>
+          </figure>
+        </div>
+        {{ end }}
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section is-small">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-centered-tablet-portrait">
+        <h1 class="title section-title">You&#39;re here because you want the best</h1>
+        <h3 class="subtitle is-5 is-muted">And we know it</h3>
+        <div class="divider"></div>
+      </div>
+      <div class="column is-9">
+
+
+        {{ $items := (where $.Site.RegularPages.ByDate.Reverse "Type" "posts") }}
+        {{ $len := (len $items) }}
+        {{ range $i, $e := $items }}
+        {{ if le $i 2 }}
+        <article class="media icon-box">
+          <div class="media-content mt-10">
+            <div class="content">
+              <p>
+                <span class="icon-box-title">
+                  <a href="{{ $e.Permalink }}">{{ $e.Title }}</a>
+                </span>
+                <span class="icon-box-text">{{ .Content | truncate 120 }}</span>
+              </p>
+            </div>
+          </div>
+        </article>
+        {{ end }}
+        {{ end }}
+
+      </div>
+    </div>
+  </div>
+</section>
+
+    
+<section id="home-form" class="section section-light-grey is-medium">
+  <div class="container">
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2 is-spaced">{{ .Params.formHeader  }}</h2>
+      <h3 class="subtitle is-5 is-muted">{{ .Params.formSubheading }}</h3>
+      <div class="divider is-centered"></div>
+      <p>Please email info@hugomint for further information</p>
+    </div>
+
+    {{/* <div class="content-wrapper">
+      <div class="columns">
+        <div class="column is-8 is-offset-2">
+          <form id="emailform" method="POST">
+            <div class="columns is-multiline">
+              <div class="column is-12">
+                <input id="name" class="input is-medium" type="text" placeholder="Enter your name">
+              </div>
+              <div class="column is-6">
+                <input id="email" class="input is-medium" type="email" placeholder="Enter your email address">
+              </div>
+              <div class="column is-6">
+                <input id="mobile" class="input is-medium" type="text" placeholder="Enter your mobile number">
+              </div>
+              <div class="column is-12">
+                <textarea id="message" class="textarea" rows="10" placeholder="Write someting..."></textarea>
+              </div>
+              <div class="form-footer has-text-centered mt-10">
+                <button id="sending" class="button cta is-large primary-btn raised is-clear">Send Message</button>
+              </div>
+            </div>
+          </form>
+          <div id="alertSMS" class="has-text-centered"></div>
+        </div>
+      </div>
+    </div> */}}
+  </div>
+
+

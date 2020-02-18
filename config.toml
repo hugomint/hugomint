@@ -22,11 +22,11 @@ theme = "fre"
 
 
 [params]
-  description = "Web design. Specialists in static websites. A web development company that has extensive experience in web development with a focus on Golang and Nodejs technologies."
+  description = "Web design. Specialists in static websites and SEO. A web development company that has extensive experience in SEO (search engine optimisation). Improve your Google ranking."
   favicon = "favicon.ico"
   logo = ""
   images = ["site-feature-image.jpg"]
-  title = "My cool site"
+  title = "SEO"
 
 [params.hero]
     textColor = "" # Empty for default color
@@ -43,32 +43,11 @@ theme = "fre"
     version = "5.7.2"
     integrity = "sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
 
-[params.form] # Contact form
-    netlify = true
-    action = "https://formspree.io/your@email.com"
-    method = "POST"
-    inputNameName = "name"
-    inputNameLabel = "Name"
-    inputNamePlaceholder = "Your name"
-    inputEmailName = "email"
-    inputEmailLabel = "Email"
-    inputEmailPlaceholder = "Your email"
-    inputMsgName = "message"
-    inputMsgLabel = "Write something"
-    inputMsgLength = 750
-    inputSubmitValue = "Send"
-
 [params.posts]
     showAuthor = true
     showDate = true
     showTags = true
     dateFormat = "Monday, Jan, 2006"
-
-[params.contact] # Contact info
-    email = "example@gmail.com"
-    phone = "xxx xxx xxx"
-    skype = ""
-    address = "10 Oasis Court, Clontarf"
 
 [params.social]
     twitter = "https://instagram.com/john"

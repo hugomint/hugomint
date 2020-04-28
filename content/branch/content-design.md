@@ -1,7 +1,6 @@
 ---
 title: Content Design
 description: Be prepared
-draft: true
 img: "/images/illustrations/icons/mouse-globe.svg"
 button: More
 weight: "8"
@@ -9,9 +8,7 @@ theme: false
 menu:
   footer:
     weight: 8
----
-
-It is good practise to have a tree diagram describing the content structure of your new site, here is an example. Please note each leaf of the branch is a unique page. This will enable you to easily add additional pages in a logical and structured manner and make your site easier to navigate.
+---It is good practise to have a tree diagram describing the content structure of your new site, here is an example. Please note each leaf of the branch is a unique page. This will enable you to easily add additional pages in a logical and structured manner and make your site easier to navigate.
 
 ![](/images/layout.jpg)
 

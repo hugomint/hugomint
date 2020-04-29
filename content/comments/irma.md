@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 weight: 1
 name: "Irma Walters"
 img: "/images/illustrations/faces/1.png"

@@ -10,14 +10,13 @@
     <div class="columns is-centered has-text-left">
       <div class="column is-8">
         <div class="content">
-          
-        {{ if .Description }}
-        <p class="subtitle">{{ .Description }}</p>
-        {{ end }}
-        {{ .Content }}
-        {{ .Render "tags" }}
-        --
-        {{ partial "social.html" . }}
+
+          {{ if .Description }}
+          <p class="subtitle">{{ .Description }}</p>
+          {{ end }}
+          {{ .Content }}
+          {{ .Render "tags" }}
+
         </div>
       </div>
     </div>

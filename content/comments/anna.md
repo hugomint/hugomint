@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 weight: 3
 name: "Anna Brand"
 img: "/images/illustrations/faces/3.png"

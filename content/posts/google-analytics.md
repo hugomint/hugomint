@@ -1,7 +1,7 @@
 ---
 title: Google Analytics
 description: ""
-draft: true
+draft: false
 date: 2019-10-28T21:34:04.000+00:00
 publishDate: 2019-10-28T21:34:00.000+00:00
 author: Dave

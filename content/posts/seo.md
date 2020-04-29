@@ -1,13 +1,13 @@
 ---
 title: Optimise Your Site
-draft: true
+draft: false
 description: Basic optimisation principals
 date: 2019-10-21T21:21:00+00:00
 publishDate: 2019-10-21T21:21:42+00:00
 author: Dave
 images: []
 tags:
-  - SEO
+  - Speed
 ---
 
 SEO and optimisation to get your site noticed. A fast loading site is easier to read not only by humans but also by google bot's.

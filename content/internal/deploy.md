@@ -1,5 +1,5 @@
 ---
-title: Web design. Specialists in static websites.
+title: Web design. Specialists in static websites
 internal: homepage
 description: Get Started
 url: web-deploy

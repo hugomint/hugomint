@@ -6,20 +6,21 @@
         {{ $int := .Site.GetPage "/deploy" }}
 
         <h1 class="title is-1 is-bold is-spaced">
-          {{ $int.Title }}
+          Try our new CMS for images.
         </h1>
         <h2 class="subtitle is-5 is-muted">
-          {{ $int.Summary }}
+          a content image management system designed to be fast, responsive and easy to use... Simply add your own
+          images quickly using the flickr app installed on your mobile phone.
         </h2>
         <p>
-          <a class="button cta rounded primary-btn raised" href="{{ $int.Permalink }}">
-            {{ $int.Description }}
+          <a class="button cta rounded primary-btn raised" href="https://flic.onrender.com/">
+            example site
           </a>
         </p>
       </div>
       <div class="column is-5 is-offset-1">
-        <figure class="image is-4by3">
-          <img src="{{ $int.Params.image }}">
+        <figure class="image ">
+          <a href="https://flic.onrender.com/"><img src="/uploads/cms.jpg"></a>
         </figure>
       </div>
     </div>

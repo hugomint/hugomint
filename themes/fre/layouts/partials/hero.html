@@ -8,9 +8,9 @@
         <h1 class="title is-1 is-bold is-spaced">
           Try our new CMS for images.
         </h1>
-        <h2 class="subtitle is-5 is-muted">
-          a content image management system designed to be fast, responsive and easy to use... Simply add your own
-          images quickly using the flickr app installed on your mobile phone.
+        <h2 class="subtitle is-5 is-muted">The link below is a working example of such a website designed to be fast,
+          responsive and easy to use... Simply add your own images quickly, using the flickr app installed on your
+          mobile phone.
         </h2>
         <p>
           <a class="button cta rounded primary-btn raised" href="https://flic.onrender.com/">
@@ -28,117 +28,19 @@
 </div>
 </section>
 
-<section class="section section-feature-grey is-small">
-  <div class="container">
-    <div class="title-wrapper has-text-centered">
-      <h2 class="title is-2">{{ .Params.description  }}</h2>
-      <h3 class="subtitle is-5 is-muted">{{ .Params.extendedDescription  }}</h3>
-      <div class="divider is-centered"></div>
-    </div>
-
-    <div class="content-wrapper">
-      <div class="columns">
-
-        {{ $items := (where $.Site.RegularPages.ByWeight "Type" "branch") }}
-        {{ $len := (len $items) }}
-        {{ range $i, $e := $items }}
-        <div class="column is-one-third">
-          <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
-            <div class="card-title">
-              <h4>{{ $e.Params.title }}</h4>
-            </div>
-            <div class="card-icon">
-              <img src="{{ $e.Params.img }}">
-            </div>
-            <div class="card-text">
-              {{ $e.Params.description }}
-            </div>
-            <div class="card-action">
-              <a href="{{ $e.Permalink }}" class="button btn-align-md accent-btn raised">{{ $e.Params.button }}</a>
-            </div>
-          </div>
-        </div>
-        {{ end }}
-
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<section class="section is-medium">
-  <div class="container">
-    <div class="columns">
-      <div class="column is-10 is-offset-1">
-        <div class="has-text-centered">
-          <img class="pushed-image" src="/images/illustrations/mockups/app-mockup.png">
-        </div>
-      </div>
-    </div>
-
-    <div class="title-wrapper has-text-centered">
-
-      <h3 class="subtitle is-5 is-muted">{{ .Params.serverText  }}</h3>
-    </div>
-
-    <p class="has-text-centered mt-20">
-      <a class="button cta is-large rounded secondary-btn raised" href="{{ $int.Permalink }}">
-        {{ $int.Description }}
-      </a>
-    </p>
-  </div>
-</section>
-
-
-<section class="section is-medium section-secondary">
-  <div class="container">
-    {{ $comm := .Site.GetPage "/Comments" }}
-    <div class="title-wrapper has-text-centered">
-      <h2 class="title is-2 light-text is-spaced">{{ $comm.Params.intro }}</h2>
-      <h3 class="subtitle is-5 light-text">{{ $comm.Params.summary }}</h3>
-    </div>
-
-    {{/* {{ with .Site.GetPage "section" "comments" }}{{ .Title }}{{ end }} */}}
-
-
-  </div>
-</section>
-
-
 <section class="section is-small">
   <div class="container">
     <div class="columns">
       <div class="column is-centered-tablet-portrait">
-        <h1 class="title section-title">You&#39;re here because you want the best</h1>
-        <h3 class="subtitle is-5 is-muted">And we know it</h3>
+        <h1 class="title section-title">If your business needs an efficient way of capturing and indexing images to show
+          potential clients, then we have the solution for you.</h1>
+        <h3 class="subtitle is-5 is-muted">And we know it...</h3>
         <div class="divider"></div>
-      </div>
-      <div class="column is-9">
-
-
-        {{ $items := (where $.Site.RegularPages.ByDate.Reverse "Type" "posts") }}
-        {{ $len := (len $items) }}
-        {{ range $i, $e := $items }}
-        {{ if le $i 2 }}
-        <article class="media icon-box">
-          <div class="media-content mt-10">
-            <div class="content">
-              <p>
-                <span class="icon-box-title">
-                  <a href="{{ $e.Permalink }}">{{ $e.Title }}</a>
-                </span>
-                <span class="icon-box-text">{{ .Content | truncate 120 }}</span>
-              </p>
-            </div>
-          </div>
-        </article>
-        {{ end }}
-        {{ end }}
-
       </div>
     </div>
   </div>
 </section>
+
 
 
 <section id="home-form" class="section section-light-grey is-medium">

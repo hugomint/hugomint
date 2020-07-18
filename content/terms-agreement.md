@@ -16,6 +16,6 @@ Hugomint is in no way liable or responsible for any content on the Owners websit
 
 The Owner understands that Hugomint does not provide any legal advice or any recommendation with respect to any laws or requirements applicable to your use or any of your End Users.
 
-All content of your site is also subject to the <a href="https://www.flickr.com/help/terms">Flickr terms and conditions</a>.
+All content of your site is also subject to the [Flickr terms and conditions](https://www.flickr.com/help/terms).
 
 **THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.**
